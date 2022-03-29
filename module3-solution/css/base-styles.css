@@ -1,0 +1,65 @@
+/********** Base styles **********/
+.style{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  background-color: lightsteelblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.food_section{
+  margin: 1em;
+  border: 1px solid black;
+  background-color: lightseagreen;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+}
+
+.the-margin{
+  margin: 1em;
+}
+p.food_text {
+  margin: 3em 2em 2em 2em;
+  clear: left;
+}
+
+h2.food_text_title {
+  margin: 0.2em;
+}
+
+.food_title{
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 1px solid black;
+  width: 45%;
+}
+
+.food_title2{
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+
+#chicken {
+  background-color: yellow;
+}
+#beef {
+  background-color: red;
+}
+#sushi {
+  background-color: lemonchiffon;
+}
